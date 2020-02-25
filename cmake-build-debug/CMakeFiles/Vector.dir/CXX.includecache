@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/dimik/CLionProjects/Vector/Vector.cpp
+cstdlib
+-
+cassert
+-
+iostream
+-
+
+C:/Users/dimik/CLionProjects/Vector/VectorFunc.cpp
+Vector.cpp
+C:/Users/dimik/CLionProjects/Vector/Vector.cpp
+cstdlib
+-
+iostream
+-
+
